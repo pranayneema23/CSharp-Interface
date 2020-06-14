@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Polygons.Library
 {
-    class Square : ConcreteRegularPolygon
+    public class Square : ConcreteRegularPolygon
     {
         public Square(int length) : base(4,length)
         {
